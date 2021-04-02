@@ -18,8 +18,29 @@ class WorkViewController: UIViewController {
         return tp
     } ()
     
+    lazy var tableView = { () -> UITableView in
+        let tp = UITableView()
+        return tp
+    } ()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     }
     
+    func setupUI() {
+        
+    }
+    
+    
+    
 }
+
+//extension WorkViewController: UITableViewDelegate, UITableViewDataSource {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return 10
+//    }
+//    
+//    
+//}

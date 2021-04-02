@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		341383E2260A061000A908B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341383E1260A061000A908B7 /* LoginViewController.swift */; };
+		342E4C1C2617345900D970FC /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C1B2617345900D970FC /* SchedulerViewController.swift */; };
+		342E4C202617399700D970FC /* SchedulerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C1F2617399700D970FC /* SchedulerCollectionViewCell.swift */; };
+		342E4C2626173FB100D970FC /* BottomSelectionBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */; };
+		343251562616C3AD003BBA4B /* ClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251552616C3AD003BBA4B /* ClockTableViewCell.swift */; };
 		348DF293260ADCE200D96914 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF292260ADCE200D96914 /* WorkViewController.swift */; };
 		348DF297260ADCF600D96914 /* RemindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF296260ADCF600D96914 /* RemindViewController.swift */; };
 		348DF29A260ADD1000D96914 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF299260ADD1000D96914 /* MyViewController.swift */; };
@@ -16,6 +20,10 @@
 		348DF2A4260AFBE000D96914 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF2A3260AFBE000D96914 /* UIButtonExtension.swift */; };
 		348DF2A9260B16B300D96914 /* DropdownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF2A8260B16B300D96914 /* DropdownListView.swift */; };
 		348DF2AC260B615C00D96914 /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF2AB260B615C00D96914 /* PersonalDataViewController.swift */; };
+		34BDBA932616D3A100086BFF /* RemindNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BDBA922616D3A100086BFF /* RemindNotificationModel.swift */; };
+		34BDBA9C2616D98A00086BFF /* SingleClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BDBA9B2616D98A00086BFF /* SingleClockModel.swift */; };
+		34BDBA9F2616DB6300086BFF /* UserPersonalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BDBA9E2616DB6300086BFF /* UserPersonalModel.swift */; };
+		34BDBAA32616DF8800086BFF /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BDBAA22616DF8800086BFF /* TimeHelper.swift */; };
 		34C619E42614182F0087B80F /* RemindCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C619E32614182F0087B80F /* RemindCollectionViewCell.swift */; };
 		34FE32A726004BBA00DF7520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE32A626004BBA00DF7520 /* AppDelegate.swift */; };
 		34FE32A926004BBA00DF7520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE32A826004BBA00DF7520 /* SceneDelegate.swift */; };
@@ -27,6 +35,10 @@
 
 /* Begin PBXFileReference section */
 		341383E1260A061000A908B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		342E4C1B2617345900D970FC /* SchedulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SchedulerViewController.swift; path = ManagementSystem/My/SchedulerViewController.swift; sourceTree = SOURCE_ROOT; };
+		342E4C1F2617399700D970FC /* SchedulerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerCollectionViewCell.swift; sourceTree = "<group>"; };
+		342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSelectionBoxView.swift; sourceTree = "<group>"; };
+		343251552616C3AD003BBA4B /* ClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTableViewCell.swift; sourceTree = "<group>"; };
 		348DF292260ADCE200D96914 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
 		348DF296260ADCF600D96914 /* RemindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindViewController.swift; sourceTree = "<group>"; };
 		348DF299260ADD1000D96914 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +47,10 @@
 		348DF2A3260AFBE000D96914 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		348DF2A8260B16B300D96914 /* DropdownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownListView.swift; sourceTree = "<group>"; };
 		348DF2AB260B615C00D96914 /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
+		34BDBA922616D3A100086BFF /* RemindNotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindNotificationModel.swift; sourceTree = "<group>"; };
+		34BDBA9B2616D98A00086BFF /* SingleClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleClockModel.swift; sourceTree = "<group>"; };
+		34BDBA9E2616DB6300086BFF /* UserPersonalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersonalModel.swift; sourceTree = "<group>"; };
+		34BDBAA22616DF8800086BFF /* TimeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHelper.swift; sourceTree = "<group>"; };
 		34C619E32614182F0087B80F /* RemindCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindCollectionViewCell.swift; sourceTree = "<group>"; };
 		34FE32A326004BBA00DF7520 /* ManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FE32A626004BBA00DF7520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				348DF292260ADCE200D96914 /* WorkViewController.swift */,
+				343251552616C3AD003BBA4B /* ClockTableViewCell.swift */,
+				34BDBA9B2616D98A00086BFF /* SingleClockModel.swift */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -80,6 +98,7 @@
 			children = (
 				348DF296260ADCF600D96914 /* RemindViewController.swift */,
 				34C619E32614182F0087B80F /* RemindCollectionViewCell.swift */,
+				34BDBA922616D3A100086BFF /* RemindNotificationModel.swift */,
 			);
 			path = Remind;
 			sourceTree = "<group>";
@@ -89,6 +108,9 @@
 			children = (
 				348DF299260ADD1000D96914 /* MyViewController.swift */,
 				348DF2AB260B615C00D96914 /* PersonalDataViewController.swift */,
+				342E4C1B2617345900D970FC /* SchedulerViewController.swift */,
+				342E4C1F2617399700D970FC /* SchedulerCollectionViewCell.swift */,
+				34BDBA9E2616DB6300086BFF /* UserPersonalModel.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -98,6 +120,8 @@
 			children = (
 				348DF2A3260AFBE000D96914 /* UIButtonExtension.swift */,
 				348DF2A8260B16B300D96914 /* DropdownListView.swift */,
+				34BDBAA22616DF8800086BFF /* TimeHelper.swift */,
+				342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -207,14 +231,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BDBA9C2616D98A00086BFF /* SingleClockModel.swift in Sources */,
+				343251562616C3AD003BBA4B /* ClockTableViewCell.swift in Sources */,
+				34BDBAA32616DF8800086BFF /* TimeHelper.swift in Sources */,
 				348DF2A0260AE30B00D96914 /* ApplyViewController.swift in Sources */,
+				34BDBA9F2616DB6300086BFF /* UserPersonalModel.swift in Sources */,
+				342E4C1C2617345900D970FC /* SchedulerViewController.swift in Sources */,
 				348DF2A9260B16B300D96914 /* DropdownListView.swift in Sources */,
+				34BDBA932616D3A100086BFF /* RemindNotificationModel.swift in Sources */,
 				348DF2A4260AFBE000D96914 /* UIButtonExtension.swift in Sources */,
 				348DF293260ADCE200D96914 /* WorkViewController.swift in Sources */,
 				348DF297260ADCF600D96914 /* RemindViewController.swift in Sources */,
 				341383E2260A061000A908B7 /* LoginViewController.swift in Sources */,
 				348DF29D260AE1E900D96914 /* RegisterViewController.swift in Sources */,
 				34C619E42614182F0087B80F /* RemindCollectionViewCell.swift in Sources */,
+				342E4C202617399700D970FC /* SchedulerCollectionViewCell.swift in Sources */,
+				342E4C2626173FB100D970FC /* BottomSelectionBoxView.swift in Sources */,
 				348DF29A260ADD1000D96914 /* MyViewController.swift in Sources */,
 				348DF2AC260B615C00D96914 /* PersonalDataViewController.swift in Sources */,
 				34FE32AB26004BBA00DF7520 /* ViewController.swift in Sources */,

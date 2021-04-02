@@ -17,15 +17,18 @@ class RemindViewController: UIViewController {
     
     lazy var collectionView = { () -> UICollectionView in
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = self.view.bounds.size
+        layout.itemSize = CGSize(width: 200, height: 50)
         layout.minimumLineSpacing = 0
-        layout.scrollDirection = .horizontal
+        layout.scrollDirection = .vertical
+        layout.minimumInteritemSpacing = 0
     
-        let tp = UICollectionView()
+        let tp = UICollectionView(frame: CGRect(x: 0, y: 80, width: 200, height: 500), collectionViewLayout: layout)
         tp.collectionViewLayout = layout
-        tp.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        tp.register(RemindCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         tp.delegate = self
         tp.dataSource = self
+        tp.isScrollEnabled = true
+        tp.backgroundColor = nil
         return tp
     } ()
 
@@ -38,6 +41,7 @@ class RemindViewController: UIViewController {
     
     func setupUI() {
         self.view.addSubview(titleLabel)
+        self.view.addSubview(collectionView)
         
         titleLabel.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
     }
@@ -51,12 +55,15 @@ class RemindViewController: UIViewController {
 extension RemindViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 15
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! RemindCollectionViewCell
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        NSLog("yrj click collectionview \(indexPath.item)")
+    }
 }
