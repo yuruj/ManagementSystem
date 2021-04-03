@@ -11,6 +11,8 @@
 		342E4C1C2617345900D970FC /* SchedulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C1B2617345900D970FC /* SchedulerViewController.swift */; };
 		342E4C202617399700D970FC /* SchedulerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C1F2617399700D970FC /* SchedulerCollectionViewCell.swift */; };
 		342E4C2626173FB100D970FC /* BottomSelectionBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */; };
+		342E9CE6261856E6004E7ACB /* PickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E9CE5261856E6004E7ACB /* PickerImageView.swift */; };
+		342E9CE926185BBD004E7ACB /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E9CE826185BBD004E7ACB /* LocationHelper.swift */; };
 		343251562616C3AD003BBA4B /* ClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343251552616C3AD003BBA4B /* ClockTableViewCell.swift */; };
 		348DF293260ADCE200D96914 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF292260ADCE200D96914 /* WorkViewController.swift */; };
 		348DF297260ADCF600D96914 /* RemindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DF296260ADCF600D96914 /* RemindViewController.swift */; };
@@ -38,6 +40,8 @@
 		342E4C1B2617345900D970FC /* SchedulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SchedulerViewController.swift; path = ManagementSystem/My/SchedulerViewController.swift; sourceTree = SOURCE_ROOT; };
 		342E4C1F2617399700D970FC /* SchedulerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerCollectionViewCell.swift; sourceTree = "<group>"; };
 		342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSelectionBoxView.swift; sourceTree = "<group>"; };
+		342E9CE5261856E6004E7ACB /* PickerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageView.swift; sourceTree = "<group>"; };
+		342E9CE826185BBD004E7ACB /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		343251552616C3AD003BBA4B /* ClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTableViewCell.swift; sourceTree = "<group>"; };
 		348DF292260ADCE200D96914 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
 		348DF296260ADCF600D96914 /* RemindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +125,9 @@
 				348DF2A3260AFBE000D96914 /* UIButtonExtension.swift */,
 				348DF2A8260B16B300D96914 /* DropdownListView.swift */,
 				34BDBAA22616DF8800086BFF /* TimeHelper.swift */,
+				342E9CE826185BBD004E7ACB /* LocationHelper.swift */,
 				342E4C2526173FB100D970FC /* BottomSelectionBoxView.swift */,
+				342E9CE5261856E6004E7ACB /* PickerImageView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				348DF2A0260AE30B00D96914 /* ApplyViewController.swift in Sources */,
 				34BDBA9F2616DB6300086BFF /* UserPersonalModel.swift in Sources */,
 				342E4C1C2617345900D970FC /* SchedulerViewController.swift in Sources */,
+				342E9CE6261856E6004E7ACB /* PickerImageView.swift in Sources */,
+				342E9CE926185BBD004E7ACB /* LocationHelper.swift in Sources */,
 				348DF2A9260B16B300D96914 /* DropdownListView.swift in Sources */,
 				34BDBA932616D3A100086BFF /* RemindNotificationModel.swift in Sources */,
 				348DF2A4260AFBE000D96914 /* UIButtonExtension.swift in Sources */,
