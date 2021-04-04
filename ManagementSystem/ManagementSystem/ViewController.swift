@@ -34,7 +34,7 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     private func addLoginVC() {
 //        if (!UserDefaults.standard.bool(forKey: "firstLaunch")) {
 //            UserDefaults.standard.set(true, forKey: "firstLaunch")
-        if false {
+        if true {
             let vc = LoginViewController()
             vc.hidesBottomBarWhenPushed = true
             let workvc = self.children[0] as! UINavigationController

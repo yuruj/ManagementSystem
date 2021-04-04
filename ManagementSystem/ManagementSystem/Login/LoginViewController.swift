@@ -67,10 +67,11 @@ class LoginViewController: UIViewController {
         
         loginBtn.addTarget(self, action: #selector(loginBtnClicked), for: .touchUpInside)
         
-        loginBtn.frame = CGRect(x: 120, y: 600, width: 200, height: 50)
+        let x = LayoutHelper.shared.theXAtCenter(screenSize: UIScreen.main.bounds.size, viewSize: CGSize(width: 200, height: 50))
+        loginBtn.frame = CGRect(x: x, y: 600, width: 200, height: 50)
 //        remindTitleView.frame = CGRect(x: 20, y: 100, width: 200, height: 50)
-        accountField.frame = CGRect(x: 20, y: 200, width: 200, height: 50)
-        passwordFiled.frame = CGRect(x: 20, y: 300, width: 200, height: 50)
+        accountField.frame = CGRect(x: x, y: 200, width: 200, height: 50)
+        passwordFiled.frame = CGRect(x: x, y: 300, width: 200, height: 50)
     }
     
     @objc func loginBtnClicked() {
